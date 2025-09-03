@@ -1,6 +1,7 @@
-Assignment_1\tokenised_hi.json
 Assignment_1/tokenized_hi.parquet
 Lab3/tokenized_hi.parquet
+*.parquet
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
