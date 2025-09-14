@@ -1,6 +1,7 @@
 Assignment_1/tokenized_hi.parquet
 Lab3/tokenized_hi.parquet
 *.parquet
+*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
