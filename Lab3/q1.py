@@ -22,16 +22,16 @@ def insert_word(root, w: str):
 def best_split(root, w: str):
   #Returns: (best_index, score, support_count)
   n = root
-  best_i = -1
-  best_score = 0.0
-  best_support = 0
+  best_i = -1 #split index in word
+  best_score = 0.0 #how strong the split is
+  best_support = 0 #how many words go through this node
 
   for i, c in enumerate(w):
     if c not in n.ch:
       break
     n = n.ch[c]
 
-    branching = len(n.ch)
+    branching = len(n.ch) #different continuations from this node
     if branching < BRANCH_THRESHOLD:
       continue
 
